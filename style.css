@@ -1,0 +1,58 @@
+/* ... (Seu CSS anterior) ... */
+
+/* Estilo para a nova seção de biografia */
+.card.biografia {
+    width: 280px; /* Levemente mais largo para texto */
+    text-align: center;
+}
+
+.card.biografia h3 {
+    min-height: 40px;
+}
+
+.card.biografia  {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.data-chave {
+    font-family: 'Space Mono', monospace;
+    color: var(--destaque-primario);
+    font-size: 0.9em;
+    padding-top: 5px;
+    border-top: 1px dashed var(--borda-card);
+    margin-top: 10px;
+}
+
+/* Estilo para os Tópicos Avançados */
+#topicos-avancados {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.topico {
+    background-color: var(--fundo-secundario);
+    padding: 25px;
+    border-radius: 8px;
+    border-left: 5px solid var(--destaque-secundario);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.topico h4 {
+    color: var(--destaque-primario);
+    font-size: 1.3em;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.topico  {
+    float: right;
+    max-width: 25%;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+/* ... (O restante do seu CSS) ... */
