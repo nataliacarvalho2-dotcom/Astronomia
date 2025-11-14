@@ -1,97 +1,47 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Site simples sobre Astronomia, explorando o universo, planetas, estrelas e galáxias.">
-    <meta name="author" content="Seu Nome">
-    <title>Universo da Astronomia</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #1d1d2b;
-            color: white;
-        }
-        header {
-            background-color: #33334d;
-            padding: 20px;
-            text-align: center;
-        }
-        header h1 {
-            font-size: 2.5em;
-            margin: 0;
-        }
-        nav {
-            background-color: #444466;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-            font-size: 1.2em;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        .container {
-            padding: 20px;
-        }
-        section {
-            margin-bottom: 30px;
-        }
-        footer {
-            background-color: #33334d;
-            padding: 10px;
-            text-align: center;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
+    <title>Explorando o Cosmos: Astronomia Básica</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header>
-        <h1>Universo da Astronomia</h1>
-        <p>Explorando os mistérios do cosmos</p>
+        <h1>🌟 AstroPortal: Uma Jornada pelo Universo 🚀</h1>
+        <p>Seu guia para os mistérios da astronomia básica.</p>
     </header>
 
-    <nav>
-        <a href="#o-que-e">O que é Astronomia?</a>
-        <a href="#planetas">Planetas</a>
-        <a href="#estrelas">Estrelas</a>
-        <a href="#galaxias">Galáxias</a>
+    <nav id="navbar">
+        <a href="index.html">Início</a>
+        <a href="sistema-solar.html">Nosso Sistema Solar</a>
+        <a href="curiosidades.html">Curiosidades Planetárias</a>
     </nav>
 
-    <div class="container">
-        <section id="o-que-e">
-            <h2>O que é Astronomia?</h2>
-            <p>A astronomia é a ciência que estuda os corpos celestes como estrelas, planetas, cometas, asteroides, galáxias e o próprio universo. É uma das ciências mais antigas, com registros históricos desde a Antiguidade. Astrônomos usam telescópios e outras tecnologias para estudar o cosmos e compreender o funcionamento do universo.</p>
+    <main>
+        <section id="o-que-e" class="container">
+            <h2>🔭 O Que é Astronomia?</h2>
+            <div class="content-wrapper">
+                <p>A **Astronomia** é uma ciência natural que estuda os corpos celestes (estrelas, planetas, cometas, galáxias, etc.) e os fenômenos que se originam fora da atmosfera da Terra. É uma das ciências mais antigas, buscando entender a origem e evolução do nosso vasto Universo.</p>
+                
+
+[Image of a deep space nebula or galaxy]
+
+            </div>
+            <button onclick="mudarTema()">Mudar Fundo (Dia/Noite)</button>
+        </section>
+        
+        <section class="container chamada">
+            <h2>Explore Mais!</h2>
+            <p>Clique nas abas acima para mergulhar nos detalhes do nosso Sistema Solar e descobrir curiosidades fascinantes sobre cada planeta.</p>
         </section>
 
-        <section id="planetas">
-            <h2>Planetas</h2>
-            <p>Os planetas são corpos celestes que orbitam uma estrela. Nosso Sistema Solar é composto por oito planetas, incluindo a Terra, Marte, Júpiter e Saturno. Cada planeta tem características próprias, como tamanho, composição atmosférica e temperatura.</p>
-        </section>
-
-        <section id="estrelas">
-            <h2>Estrelas</h2>
-            <p>Estrelas são enormes esferas de gás quente, principalmente hidrogênio, que emitem luz e calor devido às reações nucleares que ocorrem em seu núcleo. O Sol é a estrela mais próxima da Terra, e é a fonte principal de luz e calor para o nosso planeta.</p>
-        </section>
-
-        <section id="galaxias">
-            <h2>Galáxias</h2>
-            <p>Uma galáxia é um grande conjunto de estrelas, gases e poeira unidos pela gravidade. A nossa galáxia é chamada de Via Láctea, que contém bilhões de estrelas, incluindo o nosso Sistema Solar. Existem bilhões de outras galáxias no universo.</p>
-        </section>
-    </div>
+    </main>
 
     <footer>
-        <p>&copy; 2025 Universo da Astronomia - Todos os direitos reservados.</p>
+        <p>&copy; 2025 AstroPortal. Feito com paixão pelo cosmos.</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
